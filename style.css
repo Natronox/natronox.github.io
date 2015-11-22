@@ -1,0 +1,210 @@
+/* FONTS */
+
+@import url(https://fonts.googleapis.com/css?family=Poiret+One);
+
+@import url(https://fonts.googleapis.com/css?family=Signika);
+
+
+/*----------------------------NAVBAR-----------------------------------*/
+
+
+#top-navbar {
+    height: 50px;
+    background-color: rgb(42, 108, 143);
+    display: block;
+    margin: -8px;
+    margin-bottom: 1%;
+    padding: 0px;
+
+}
+
+#nav-container  {
+    margin: 0px;z
+    padding: 0px;
+    width: 55%;
+    height 50px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: aqua;
+    display: block;
+    
+}
+
+.navlinks   {
+    font-family: 'Signika', sans-serif;
+    font-size: 18px;
+    border-style: solid;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    float: left;
+    padding-right: 30px;
+    padding-left: 30px;
+    margin-top: 0px;
+    border-color:aliceblue;
+    border-top: none;
+    border-bottom: none;
+    border-width: 1px;
+
+}
+
+.contact-us-container   {
+    font-family: 'Signika', sans-serif;
+    font-size: 18px;
+    border-style: solid;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    float: left;
+    padding-right: 30px;
+    padding-left: 60px;
+    margin-top: 0px;
+    border-color: rgb(152, 184, 201);
+    border-top: none;
+    border-bottom: none;
+    border-width: 2px;
+    float: right;
+}
+
+.contact-us-container img  {
+    position:   absolute;
+    margin-left: -38px;
+}
+
+a   {
+    color: white;
+}
+
+/*---------------------LOGO TO 2ND GREY UNDERLINE---------------------------*/
+
+
+#main   {
+    /*background-color: rgb(252, 192, 87);*/
+        margin-bottom: 0;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 0;
+        text-align: right;
+        width: 55%;
+        max-height: 100%;
+}
+
+*.header img
+      {
+        float: left;
+      }
+
+p1 {
+    font-family: 'Poiret One', cursive;
+    padding: 0em;
+    font-size: 300%;
+    padding-bottom: 0em;
+    padding-left: 1em;
+    
+}
+
+#pictures-and-quote {
+    border-style:   solid;
+    border-left:    none;
+    border-right: none;
+    border-width:   2px;
+    border-color: rgb(216, 216, 216);
+    margin-top: 2%;
+    padding-top: 4%;
+    padding-bottom:2%;
+    height: 290px;
+    
+}
+
+#pictures-and-quote img {
+
+    float:  left;
+    clear: right;
+
+}
+
+p.ryan-quote    {
+    float: right;
+    clear: right;
+    width:  55%;
+    font-size: 1.8em;
+    margin-bottom: 2%;
+    margin-top: 0%;
+    
+}
+
+#clients-row    {
+    float: left;
+    clear: left;
+    padding-top: 5%;
+    width:  100%;
+}
+
+    
+table   {
+    width: 100%;
+}
+
+td  {
+    
+}
+
+.clients-item   {
+    
+}
+
+
+/*---------------------REQUEST QUOTE BOX--------------*/
+
+#request-box {
+    background-color: rgb(238, 236, 237);
+    margin-top: 1.5%;
+    padding-top: 0.5%;
+    display: 
+        
+}
+
+#request-constrainer    {
+    width:      55%;
+    margin-right: auto;
+    margin-left: auto;
+    font-family: 'Signika', sans-serif;
+    
+}
+
+fieldset    {
+    border: none;
+}
+
+#name   {
+    width: 35%;
+}
+
+#email  {
+    width: 35%;
+}
+
+#phone-no  {
+    width: 35%;
+}
+
+#message    {
+    float: right;
+    width:  60%;
+    height: 90px;
+}
+
+
+/*-----------------------FOOTER-----------------------*/
+
+
+.footer {
+    position:absolute;
+    bottom:0px;
+    width: 100%;
+    margin: 0px 0px 0px -8px;
+    background-color: rgb(102, 166, 201);
+    height: 50px;
+    font-family: 'Signika', sans-serif;
+    color: aliceblue;
+    text-align: center;
+    
+}
