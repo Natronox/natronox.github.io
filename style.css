@@ -34,6 +34,7 @@
 .navlinks   {
     font-family: 'Signika', sans-serif;
     font-size: 18px;
+    text-decoration:    none;
     border-style: solid;
     padding-top: 14px;
     padding-bottom: 14px;
